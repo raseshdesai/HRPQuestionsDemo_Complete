@@ -1,5 +1,5 @@
 //
-//  HRPViewController.h
+//  HRPQuestionDetailViewController.h
 //  HRPMobilityQuestionsApp_Demo_1
 //
 //  Created by Rasesh Desai on 6/24/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HRPViewController : UIViewController
+@interface HRPQuestionDetailViewController : UIViewController
+
+@property (nonatomic, strong) NSDictionary * question;
 
 @end

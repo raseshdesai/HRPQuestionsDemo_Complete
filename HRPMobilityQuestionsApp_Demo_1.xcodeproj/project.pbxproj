@@ -17,7 +17,8 @@
 		12EF447B1778E5FD008DEC57 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EF447A1778E5FD008DEC57 /* Default@2x.png */; };
 		12EF447D1778E5FD008DEC57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12EF447C1778E5FD008DEC57 /* Default-568h@2x.png */; };
 		12EF44801778E5FD008DEC57 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EF447E1778E5FD008DEC57 /* MainStoryboard.storyboard */; };
-		12EF44831778E5FD008DEC57 /* HRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF44821778E5FD008DEC57 /* HRPViewController.m */; };
+		12EF448B1778E66C008DEC57 /* HRPQuestionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF448A1778E66C008DEC57 /* HRPQuestionDetailViewController.m */; };
+		12EF448E1778F859008DEC57 /* HRPQuestionListTVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EF448D1778F859008DEC57 /* HRPQuestionListTVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		12EF447A1778E5FD008DEC57 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		12EF447C1778E5FD008DEC57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		12EF447F1778E5FD008DEC57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		12EF44811778E5FD008DEC57 /* HRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRPViewController.h; sourceTree = "<group>"; };
-		12EF44821778E5FD008DEC57 /* HRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRPViewController.m; sourceTree = "<group>"; };
+		12EF44891778E66C008DEC57 /* HRPQuestionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPQuestionDetailViewController.h; sourceTree = "<group>"; };
+		12EF448A1778E66C008DEC57 /* HRPQuestionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPQuestionDetailViewController.m; sourceTree = "<group>"; };
+		12EF448C1778F859008DEC57 /* HRPQuestionListTVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPQuestionListTVCViewController.h; sourceTree = "<group>"; };
+		12EF448D1778F859008DEC57 /* HRPQuestionListTVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPQuestionListTVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +86,11 @@
 		12EF446C1778E5FD008DEC57 /* HRPMobilityQuestionsApp_Demo_1 */ = {
 			isa = PBXGroup;
 			children = (
-				12EF44751778E5FD008DEC57 /* HRPAppDelegate.h */,
-				12EF44761778E5FD008DEC57 /* HRPAppDelegate.m */,
 				12EF447E1778E5FD008DEC57 /* MainStoryboard.storyboard */,
-				12EF44811778E5FD008DEC57 /* HRPViewController.h */,
-				12EF44821778E5FD008DEC57 /* HRPViewController.m */,
+				12EF44891778E66C008DEC57 /* HRPQuestionDetailViewController.h */,
+				12EF448A1778E66C008DEC57 /* HRPQuestionDetailViewController.m */,
+				12EF448C1778F859008DEC57 /* HRPQuestionListTVCViewController.h */,
+				12EF448D1778F859008DEC57 /* HRPQuestionListTVCViewController.m */,
 				12EF446D1778E5FD008DEC57 /* Supporting Files */,
 			);
 			path = HRPMobilityQuestionsApp_Demo_1;
@@ -96,6 +99,8 @@
 		12EF446D1778E5FD008DEC57 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12EF44751778E5FD008DEC57 /* HRPAppDelegate.h */,
+				12EF44761778E5FD008DEC57 /* HRPAppDelegate.m */,
 				12EF446E1778E5FD008DEC57 /* HRPMobilityQuestionsApp_Demo_1-Info.plist */,
 				12EF446F1778E5FD008DEC57 /* InfoPlist.strings */,
 				12EF44721778E5FD008DEC57 /* main.m */,
@@ -176,7 +181,8 @@
 			files = (
 				12EF44731778E5FD008DEC57 /* main.m in Sources */,
 				12EF44771778E5FD008DEC57 /* HRPAppDelegate.m in Sources */,
-				12EF44831778E5FD008DEC57 /* HRPViewController.m in Sources */,
+				12EF448B1778E66C008DEC57 /* HRPQuestionDetailViewController.m in Sources */,
+				12EF448E1778F859008DEC57 /* HRPQuestionListTVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
